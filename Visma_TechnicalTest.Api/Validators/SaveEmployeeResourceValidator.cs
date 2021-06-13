@@ -20,7 +20,7 @@ namespace Visma_TechnicalTest.Api.Validators
                 .MaximumLength(12);
 
             RuleFor(x => x.Phone)
-                .MaximumLength(15);
+                .MaximumLength(9);
         }
     }
 }
